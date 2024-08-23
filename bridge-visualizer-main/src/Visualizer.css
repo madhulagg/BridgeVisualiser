@@ -1,0 +1,39 @@
+.sky {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: auto;
+    height: 20vh;
+    min-height: 100px;
+}
+.text {
+    color: black;
+    justify-self: center;
+}
+.ans {
+    display: inline-block;
+    min-width: 10px;
+    width: 2vw;
+}
+.bridge {
+    background-color: black;
+    width: 100%;
+    height: 1vh;
+    min-height: 5px;
+}
+
+
+
+.ground {
+    background-color: darkred;
+    height: 55vh;
+    min-height: 300px;
+    width: auto;
+}
+.water {
+    display: inline-block;
+    vertical-align: top;
+    width: 2vw;
+    min-width: 10px;
+}
